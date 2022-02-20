@@ -8,9 +8,12 @@ variable "bucket_prefix" {
     default     = "deepesh11-s3bucket-"
 }
 variable "tags" {
-        Name = "deepesh11-s3bucket"
+    type        = map
+    description = " A mapping of tags to assign to the bucket."
+    default     = {
         environment = "DEV"
-            
+        terraform   = "true"
+    }
 }
 variable "versioning" {
     type        = bool
