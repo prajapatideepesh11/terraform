@@ -18,7 +18,7 @@ variable "tags" {
 variable "versioning" {
     type        = bool
     description = "A state of versioning."
-    default     = false
+    default     = true
 }
 variable "acl" {
     type        = string
