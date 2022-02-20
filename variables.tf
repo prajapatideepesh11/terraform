@@ -10,8 +10,7 @@ variable "bucket_prefix" {
 variable "tags" {
     
         environment = "DEV"
-        terraform   = "true"
-    
+            
 }
 variable "versioning" {
     type        = bool
