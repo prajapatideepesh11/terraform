@@ -8,7 +8,7 @@ variable "bucket_prefix" {
     default     = "deepesh11-s3bucket-"
 }
 variable "tags" {
-        Name = "deepesh11-s3bucket-"
+        Name = "deepesh11-s3bucket"
         environment = "DEV"
             
 }
